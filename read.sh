@@ -9,7 +9,7 @@ case ${option} in
      echo "dir name is $DIR"
      ;;
   *) 
-     echo "'basename ${0}' :usage: [-f file] [-d directory]"
+     echo "`basename ${0}` :usage: [-f file] [-d directory]"
      exit 1
      ;;
 esac
