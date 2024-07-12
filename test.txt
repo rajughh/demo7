@@ -1,0 +1,9 @@
+#!/bin/bash
+filename=test.txt
+vi $filename <<EndOfCommands
+i
+this file was created by automatically from
+a shell script
+^[
+ZZ
+EndOfCommands
